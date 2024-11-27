@@ -7,11 +7,9 @@
 body {
   background-color: #131720;
   font-family: sans-serif;
-}
-
-h3{
   color: white;
 }
+
 
 .topnav{
   overflow: hidden;
@@ -69,4 +67,16 @@ h3{
     padding: 15px;
     text-align: center;
     background-color: #151f30;
+  }
+
+  .star {
+    width: 20px;
+    vertical-align: bottom;
+    clip-path: polygon(50% 1%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    -webkit-clip-path: polygon(50% 10%, 61% 40%, 98% 40%, 65% 60%, 78% 91%, 50% 70%, 25% 93%, 33% 60%, 2% 40%, 40% 39%);
+    background-color: #ffcc00; /* Change the background behind the star */
+  }
+
+  .reviews {
+    color: rgb(0, 106, 255);
   }
